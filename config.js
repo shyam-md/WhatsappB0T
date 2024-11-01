@@ -72,9 +72,9 @@ module.exports = {
   HANDLERS: process.env.PREFIX  || ".",
   BRANCH  : process.env.BRANCH  || "main",
   VERSION : process.env.VERSION || "1.0.1-developement-x",
-  caption : global.caption || "```『 ᴘᴏᴡᴇʀᴇᴅ ꜱʜʏᴀᴍ-ᴍᴅ 』```"
+  caption : global.caption ||"```『 ᴘᴏᴡᴇʀᴇᴅ ꜱʜʏᴀᴍ-ᴍᴅ 』```",
  
-  //authorname : process.env.PACK_AUTHER|| "shyam",
+  author : process.env.PACK_AUTHER|| "ꜱʜʏᴀᴍ",
   packname: process.env.PACK_NAME || "ꜱʜʏᴀᴍ-ᴍᴅ",
   botname : process.env.BOT_NAME  || "ꜱʜʏᴀᴍ-ᴍᴅ",
   ownername:process.env.OWNER_NAME|| "ꜱʜʏᴀᴍ",
