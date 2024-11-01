@@ -16,12 +16,12 @@ global.allowJids= process.env.ALLOW_JID || "null"
 global.blockJids= process.env.BLOCK_JID || "null"
 global.DATABASE_URL = process.env.DATABASE_URL || ""
 
-global.timezone= process.env.TZ || process.env.TIME_ZONE || "India,Kolkata";
+global.timezone= process.env.TZ || process.env.TIME_ZONE || "India/Kolkata";
 global.github=process.env.GITHUB|| "https://github.com/SuhailTechInfo/Suhail-Md";
-global.gurl  =process.env.GURL  || "https://wa.me/917026104109";
+//global.gurl  =process.env.GURL  || "https://wa.me/917026104109";
 global.website=process.env.GURL || "https://wa.me/917026104109" ; 
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://imgur.com/a/zDHZuWC" || "" ; // SET LOGO FOR IMAGE 
-global.caption = process.env.CAPTION || global.caption || "ꜱʜʏᴀᴍ-ᴍᴅ" 
+global.caption = process.env.CAPTION || global.caption || "ꜱʜʏᴀᴍ-ᴍᴅ ➡️ ꜱʜʏᴀᴍ" 
 
 
 global.devs = "2348078582627" // Developer Contact
